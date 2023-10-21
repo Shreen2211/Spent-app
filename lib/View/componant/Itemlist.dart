@@ -47,8 +47,8 @@ class ItemList extends StatelessWidget {
                         ],
                       ),
                     ),
-                    InkWell(
-                      onTap: (){
+                    ElevatedButton(
+                      onPressed: (){
                         cubit.addwidget();
                       },
                       child: Column(mainAxisAlignment: MainAxisAlignment.start,
