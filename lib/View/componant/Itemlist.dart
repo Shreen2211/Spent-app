@@ -22,7 +22,7 @@ class ItemList extends StatelessWidget {
                 ),
                 padding: EdgeInsets.all(10),
                 width: double.infinity,
-                height: 100,
+                height: 120,
                 child: Row(
                   children: [
                     Image.asset(
